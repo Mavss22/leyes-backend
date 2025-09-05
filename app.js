@@ -12,9 +12,9 @@ const requireAdmin = require('./middlewares/requireAdmin');
 
 // ---------- Rutas ----------
 const authRoutes           = require('./routes/authRoutes');          // /api/auth/*
-const companyRoutes        = require('./routes/companyRoutes');       // /api/empresas
+const companyRoutes        = require('./routes/CompanyRoutes');       // /api/empresas
 const evaRoutes            = require('./routes/evaRoutes');           // /api/controles/:normativa ...
-const evidenceRoutes       = require('./routes/evidenceRoutes');      // /api/evidencias
+const evidenceRoutes       = require('./routes/EvidenceRoutes');      // /api/evidencias
 const evaluationRoutes     = require('./routes/evaluationRoutes');    // /api/evaluaciones
 
 // Admin
