@@ -11,6 +11,7 @@ const auth = require('./middlewares/auth');
 const requireAdmin = require('./middlewares/requireAdmin');
 
 // ---------- Rutas ----------
+// ---------- Rutas ----------
 const authRoutes           = require('./routes/authRoutes');          // /api/auth/*
 const companyRoutes        = require('./routes/CompanyRoutes');       // /api/empresas
 const evaRoutes            = require('./routes/evaRoutes');           // /api/controles/:normativa ...
